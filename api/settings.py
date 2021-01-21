@@ -27,7 +27,7 @@ SECRET_KEY = '1ky@=0@-7s3^tc)25oku4tdqb_y0h79a6tafnqq64$qg7aex80'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ottium.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['ottium.herokuapp.com','127.0.0.1','192.168.43.210']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'corsheaders',
+    'rest_framework',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
